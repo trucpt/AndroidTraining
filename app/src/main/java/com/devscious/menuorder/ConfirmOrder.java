@@ -8,12 +8,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.Toolbar;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.ListView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -25,12 +22,6 @@ public class ConfirmOrder extends AppCompatActivity {
     CustomList adpater;
     private List<Data> listData = new ArrayList<>();
     double total = 0;
-    String[] title = {
-            "Plain HomeBurger",
-            "Chicken Satay Tosta",
-            "Chicken Satay Tosta"
-    };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
