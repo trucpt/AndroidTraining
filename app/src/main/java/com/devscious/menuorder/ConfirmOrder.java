@@ -71,45 +71,6 @@ public class ConfirmOrder extends AppCompatActivity {
         listData.add(dataToAdd);
         dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
         listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Plain HomeBurger", 140000, 2, R.drawable.food1);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-        dataToAdd = new Data("Chicken Satay Tosta", 160000, 1, R.drawable.food2);
-        listData.add(dataToAdd);
-
         adpater.notifyDataSetChanged();
     }
     @Subscribe
